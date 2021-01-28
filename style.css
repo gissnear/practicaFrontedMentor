@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Spartan', sans-serif;
+}
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    height: 30vh;
+}
+.margen{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 40vw;
+    height: 40vh;
+}
+h1{
+    font-weight: 700;
+    color: #512051;
+}
+p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.container-R{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+.rainting{
+    background-color: #DCDCDC;
+    color: #512051;
+    width: 40vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.margenes{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+.tarjeta{
+    background-color: #512051;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+  
+}
+img{
+    border-radius: 70px;
+    height: 50px;
+    
+}
+.img-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.blanco{
+    color: white;
+}
+h5{
+    background-color: #512051;
+    color: #F7B6D3;
+}
+.pCard{
+    background-color: #512051;
+    color: white;
+}
+.attribution{
+    text-align: center;
+}
